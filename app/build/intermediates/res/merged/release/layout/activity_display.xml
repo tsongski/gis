@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".DisplayActivity" >
+
+    <RelativeLayout
+     android:id="@+id/maintop01"
+     android:layout_width="match_parent"
+     android:layout_height="35dp"
+     android:background="#FFABCDEF">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="25sp"
+            android:text="数据库" />
+     
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/maintop01"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:rowCount="4" >
+
+       <Button
+           android:id="@+id/buttonA"
+            android:layout_width="90dp"
+            android:layout_height="90dp" 
+            android:layout_margin="10dp"
+            android:text="建筑蓄热能"
+            android:onClick="doClick"/>
+       <Button
+           android:id="@+id/buttonB"
+            android:layout_width="90dp"
+            android:layout_height="90dp" 
+            android:layout_margin="10dp"
+            android:text="夜间通风"
+            android:onClick="doClick"/>
+        <Button
+            android:id="@+id/buttonC"
+            android:layout_width="90dp"
+            android:layout_height="90dp" 
+            android:layout_margin="10dp"
+            android:text="太阳能利用"
+            android:onClick="doClick"/>
+      <Button
+          android:id="@+id/buttonD"
+            android:layout_width="90dp"
+            android:layout_height="90dp" 
+            android:layout_margin="10dp"
+            android:text="自然通风"
+            android:onClick="doClick"/>
+        <Button
+            android:id="@+id/buttonE"
+            android:layout_width="90dp"
+            android:layout_height="90dp" 
+            android:layout_margin="10dp"
+            android:text="直接蒸发冷却"
+            android:onClick="doClick"/>
+       <Button
+           android:id="@+id/buttonF"
+            android:layout_width="90dp"
+            android:layout_height="90dp" 
+            android:layout_margin="10dp"
+            android:text="间接蒸发冷却"
+            android:onClick="doClick"/>
+       <Button
+           android:id="@+id/buttonG"
+            android:layout_width="90dp"
+            android:layout_height="90dp" 
+            android:layout_margin="10dp"
+            android:text="综合措施"
+            android:onClick="doClick"/>
+    </GridLayout>
+</RelativeLayout>

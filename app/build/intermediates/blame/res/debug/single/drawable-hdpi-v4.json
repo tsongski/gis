@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "H:\\project\\hobby\\keshe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_background.png",
+        "source": "H:\\project\\hobby\\keshe\\app\\src\\main\\res\\drawable-hdpi\\main_background.png"
+    },
+    {
+        "merged": "H:\\project\\hobby\\keshe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\popup.png",
+        "source": "H:\\project\\hobby\\keshe\\app\\src\\main\\res\\drawable-hdpi\\popup.png"
+    },
+    {
+        "merged": "H:\\project\\hobby\\keshe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "H:\\project\\hobby\\keshe\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\project\\hobby\\keshe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_gcoding.png",
+        "source": "H:\\project\\hobby\\keshe\\app\\src\\main\\res\\drawable-hdpi\\icon_gcoding.png"
+    },
+    {
+        "merged": "H:\\project\\hobby\\keshe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.jpg",
+        "source": "H:\\project\\hobby\\keshe\\app\\src\\main\\res\\drawable-hdpi\\icon.jpg"
+    }
+]

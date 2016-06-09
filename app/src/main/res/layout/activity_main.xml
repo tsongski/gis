@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    
+<com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" >
+    </com.baidu.mapapi.map.MapView>
+
+<LinearLayout
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:visibility="gone"
+    >
+	<TextView 
+	    android:id="@+id/tvLat"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:gravity="center"
+	    android:textSize="22sp"
+	    android:text="纬度:"
+	    />
+    <EditText
+        android:id="@+id/etLat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10" >
+
+    </EditText>
+    <TextView 
+	    android:id="@+id/tvLng"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:gravity="center"
+	    android:textSize="22sp"
+	    android:text="经度:"
+	    />
+    <EditText
+        android:id="@+id/etLng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10" >
+
+    </EditText>
+    <Button 
+        android:id="@+id/queryByLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="查询"
+        android:onClick="doClick"
+        />
+
+</LinearLayout>
+<LinearLayout
+     android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_below="@id/LinearLayout1"
+    android:layout_height="48dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    >
+    <TextView 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"     
+		android:text="城市:"   
+		android:textSize="22sp"
+        />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" 
+        android:layout_weight="1"
+        />
+
+    <Button 
+        android:id="@+id/queryByCity"
+         android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:onClick="doClick"
+        android:text="查询"
+        />
+    </LinearLayout>
+
+<CheckBox
+    android:id="@+id/sitellite"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/LinearLayout2"
+    android:text="卫星" />
+
+<CheckBox
+    android:id="@+id/overlay"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/sitellite"
+    android:layout_alignBottom="@+id/sitellite"
+    android:layout_toRightOf="@+id/sitellite"
+    android:text="气候区" />
+
+<CheckBox
+    android:id="@+id/station"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/overlay"
+    android:layout_alignBottom="@+id/overlay"
+    android:layout_toRightOf="@+id/overlay"
+    android:text="气象站" />
+
+</RelativeLayout>

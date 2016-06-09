@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.0"
+
+    signingConfigs {
+        release {
+            keyAlias 'gis'
+            keyPassword 'aA111111'
+            storeFile file('../gis.jks')
+            storePassword 'aA111111'
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.example.keshe"
+        minSdkVersion 11
+        targetSdkVersion 23
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    compile files('libs/android_api_1.1_forsdk.jar')
+    compile files('libs/BaiduLBS_Android.jar')
+    compile files('libs/galaxy_mini.jar')
+}

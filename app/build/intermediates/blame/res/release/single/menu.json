@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "H:\\project\\hobby\\keshe\\app\\build\\intermediates\\res\\merged\\release\\menu\\list.xml",
+        "source": "H:\\project\\hobby\\keshe\\app\\src\\main\\res\\menu\\list.xml"
+    },
+    {
+        "merged": "H:\\project\\hobby\\keshe\\app\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "H:\\project\\hobby\\keshe\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "H:\\project\\hobby\\keshe\\app\\build\\intermediates\\res\\merged\\release\\menu\\welcome.xml",
+        "source": "H:\\project\\hobby\\keshe\\app\\src\\main\\res\\menu\\welcome.xml"
+    },
+    {
+        "merged": "H:\\project\\hobby\\keshe\\app\\build\\intermediates\\res\\merged\\release\\menu\\display.xml",
+        "source": "H:\\project\\hobby\\keshe\\app\\src\\main\\res\\menu\\display.xml"
+    }
+]
