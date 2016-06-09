@@ -1,0 +1,11 @@
+/.project
+/.settings
+/bin
+/gen
+/.classpath
+/build
+/.idea
+/.gradle
+/local.properties
+/libwewidget/libwewidget.iml
+/app/app.iml

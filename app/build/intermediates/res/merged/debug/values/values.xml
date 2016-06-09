@@ -3,7 +3,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="action_settings">Settings</string>
-    <string name="app_name">keshe</string>
+    <string name="app_name">gis</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_display">DisplayActivity</string>
     <string name="title_activity_list">ListActivity</string>

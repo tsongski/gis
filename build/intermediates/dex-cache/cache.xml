@@ -1,33 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
+<items version="2" />
 
-    <item
-        jar="H:\project\hobby\keshe\app\libs\BaiduLBS_Android.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c2405d81ec6b203d4e600f5c559ba19221d0199b">
-        <dex dex="H:\project\hobby\keshe\app\build\intermediates\pre-dexed\release\BaiduLBS_Android_1207babd42b8579e89a3627b86590b5d292930b1.jar" />
-    </item>
-    <item
-        jar="G:\AndroidSDK\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="H:\project\hobby\keshe\app\build\intermediates\pre-dexed\release\support-v4-18.0.0_6f84d3361ae24042120fefe8f3465e8b2710f6a5.jar" />
-    </item>
-    <item
-        jar="H:\project\hobby\keshe\app\libs\android_api_1.1_forsdk.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="610ab8a4952cfec5cc008a697790e21dec7b8d3a">
-        <dex dex="H:\project\hobby\keshe\app\build\intermediates\pre-dexed\release\android_api_1.1_forsdk_c74bc4ce275621a8453332cfe83d0086ddc54d99.jar" />
-    </item>
-    <item
-        jar="H:\project\hobby\keshe\app\libs\galaxy_mini.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="58de9ecfba229dbb2c3eb3f45dbe284ba58100ea">
-        <dex dex="H:\project\hobby\keshe\app\build\intermediates\pre-dexed\release\galaxy_mini_40a8757255a3f78552aaa3131b056d1c394db71d.jar" />
-    </item>
-
-</items>

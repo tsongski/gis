@@ -1,7 +1,23 @@
 [
     {
+        "merged": "H:\\project\\hobby\\gis\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "H:\\project\\hobby\\gis\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
         "merged": "H:\\project\\hobby\\keshe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_display.xml",
         "source": "H:\\project\\hobby\\keshe\\app\\src\\main\\res\\layout\\activity_display.xml"
+    },
+    {
+        "merged": "H:\\project\\hobby\\gis\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list.xml",
+        "source": "H:\\project\\hobby\\gis\\app\\src\\main\\res\\layout\\activity_list.xml"
+    },
+    {
+        "merged": "H:\\project\\hobby\\gis\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_display.xml",
+        "source": "H:\\project\\hobby\\gis\\app\\src\\main\\res\\layout\\activity_display.xml"
+    },
+    {
+        "merged": "H:\\project\\hobby\\gis\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "H:\\project\\hobby\\gis\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "H:\\project\\hobby\\keshe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
